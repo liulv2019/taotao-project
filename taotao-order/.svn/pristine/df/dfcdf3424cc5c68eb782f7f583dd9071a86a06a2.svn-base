@@ -1,0 +1,4 @@
+#订单号生成key
+ORDER_GEN_KEY=ORDER_GEN_KEY
+#订单号起始数
+ORDER_INIT_ID=100544

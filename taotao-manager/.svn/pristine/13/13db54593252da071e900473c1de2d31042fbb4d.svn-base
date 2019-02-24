@@ -1,0 +1,5 @@
+需要添加本地库pagehelper-3.4.2-fix包到maven本地仓库:
+1.cmd到本地jar所在位置
+2.命令：
+mvn install:install-file -Dfile=pagehelper-3.4.2-fix.jar -DgroupId=com.github.pagehelper -DartifactId=pagehelper -Dversion=3.4.2-fix -Dpackaging=jar
+其中：-DgroupId和-DartifactId的作用是指定了这个jar包在repository的安装路径，只是用来告诉项目去这个路径下寻找这个名称的jar包。
